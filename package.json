@@ -4,9 +4,10 @@
   "description": "Formats cookies into multiple lines and highlights cookie names and values",
   "author": "Rodrigo Suárez (https://github.com/toti1212)",
   "publisher": "toti1212",
+  "icon": "assets/logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/toti1212/cookie-formatter"
+    "url": "https://github.com/toti1212/vscode-cookie-formatter"
   },
   "engines": {
     "vscode": "^1.1.37"
@@ -18,7 +19,7 @@
         "onCommand:cookie-formatter.compress",
         "onCommand:cookie-formatter.decompress"
     ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/extension.js",
   "contributes": {
         "commands": [
