@@ -30,6 +30,29 @@ This command will take a single line of cookies and format them into a more read
 
 **Input:**
 ```
+cookie_name=cookie_value; cookie_name2=cookie_value2; cookie_name3=cookie_value3;
+```
+
+**Output:**
+```
+cookie_name=cookie_value;
+cookie_name2=cookie_value2;
+cookie_name3=cookie_value3;
+```
+
+To use this command:
+- Select the text containing the cookies.
+- Press `Cmd+Shift+P` (macOS) or `Ctrl+Shift+P` (Windows/Linux).
+- Type `Cookies: Decompress` and press Enter.
+
+### 2. Compress Cookies
+
+This command will take multiple lines of cookies and compress them into a single line, making it easier to copy and paste.
+
+**Example:**
+
+**Input:**
+```
 cookie_name=cookie_value;
 cookie_name2=cookie_value2;
 cookie_name3=cookie_value3;

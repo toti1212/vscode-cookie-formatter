@@ -3,7 +3,7 @@
   "displayName": "Cookie Formatter",
   "description": "Formats cookies into multiple lines and highlights cookie names and values",
   "author": "Rodrigo Suárez (https://github.com/toti1212)",
-  "publisher": "Rodrigo Suárez",
+  "publisher": "toti1212",
   "repository": {
     "type": "git",
     "url": "https://github.com/toti1212/cookie-formatter"
